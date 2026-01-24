@@ -38,7 +38,7 @@ export default function CTA() {
                                 href="/admissions"
                                 className="block px-10 py-5 bg-gold text-navy font-bold uppercase tracking-widest rounded-sm hover:bg-white transition-colors"
                             >
-                                Apply Now - It&apos;s Free
+                                Apply Now
                             </Link>
                         </motion.div>
                         <motion.div
@@ -55,7 +55,6 @@ export default function CTA() {
                     </div>
 
                     <div className="mt-12 flex flex-wrap justify-center gap-6 text-white/60 text-sm uppercase tracking-widest">
-                        <span>✓ No Application Fee</span>
                         <span>✓ Flexible Payment Plans</span>
                         <span>✓ Start Anytime</span>
                     </div>

@@ -12,7 +12,7 @@ export const DISTANCE_LEARNING_PAGE = {
         tagline: 'From short courses to full degrees — experience online study that works around you.',
         description: 'Match your career move with a choice of more than 200 online courses. Wherever you want to take your career – in Business, education, security, fiber optics, health, IT, law, science or any other industry – Advanced Solutions Technical Institute has got the right course for you.',
         ctaText: 'Browse Online Courses',
-        ctaUrl: '/programmes',
+        ctaUrl: 'https://www.ed2go.com/asti/',
     },
 
     whyChoose: {
@@ -45,14 +45,14 @@ export const DISTANCE_LEARNING_PAGE = {
         heading: 'Explore Course Categories',
         subheading: 'Choose from 200+ online courses across these fields:',
         items: [
-            { name: 'Business', icon: 'briefcase', color: 'from-blue-600 to-blue-400', href: '/programmes#business-administration' },
-            { name: 'Technology & IT', icon: 'laptop', color: 'from-purple-600 to-purple-400', href: '/programmes#information-technology' },
-            { name: 'Healthcare', icon: 'heart-pulse', color: 'from-rose-600 to-rose-400', href: '/programmes#healthcare' },
-            { name: 'Education', icon: 'graduation-cap', color: 'from-green-600 to-green-400', href: '/programmes#education' },
-            { name: 'Security', icon: 'shield', color: 'from-orange-600 to-orange-400', href: '/programmes#security-systems' },
-            { name: 'Fiber Optics', icon: 'cable', color: 'from-cyan-600 to-cyan-400', href: '/programmes#fiber-optics' },
-            { name: 'Law & Legal', icon: 'scale', color: 'from-indigo-600 to-indigo-400', href: '/programmes#legal-studies' },
-            { name: 'Trades', icon: 'wrench', color: 'from-amber-600 to-amber-400', href: '/programmes#trades' },
+            { name: 'Business', icon: 'briefcase', color: 'from-blue-600 to-blue-400', href: 'https://www.ed2go.com/asti/' },
+            { name: 'Technology & IT', icon: 'laptop', color: 'from-purple-600 to-purple-400', href: 'https://www.ed2go.com/asti/' },
+            { name: 'Healthcare', icon: 'heart-pulse', color: 'from-rose-600 to-rose-400', href: 'https://www.ed2go.com/asti/' },
+            { name: 'Education', icon: 'graduation-cap', color: 'from-green-600 to-green-400', href: 'https://www.ed2go.com/asti/' },
+            { name: 'Security', icon: 'shield', color: 'from-orange-600 to-orange-400', href: 'https://www.ed2go.com/asti/' },
+            { name: 'Fiber Optics', icon: 'cable', color: 'from-cyan-600 to-cyan-400', href: 'https://www.ed2go.com/asti/' },
+            { name: 'Law & Legal', icon: 'scale', color: 'from-indigo-600 to-indigo-400', href: 'https://www.ed2go.com/asti/' },
+            { name: 'Trades', icon: 'wrench', color: 'from-amber-600 to-amber-400', href: 'https://www.ed2go.com/asti/' },
         ],
     },
 
@@ -87,11 +87,11 @@ export const DISTANCE_LEARNING_PAGE = {
         description: 'If tomorrow is inevitable, that makes the present the BEST TIME TO CHANGE YOUR FUTURE!',
         primaryButton: {
             text: 'Browse All Courses',
-            url: '/programmes',
+            url: 'https://www.ed2go.com/asti/',
         },
         secondaryButton: {
             text: 'Contact Us',
-            url: '/contact',
+            url: 'https://www.ed2go.com/asti/',
         },
     },
 };

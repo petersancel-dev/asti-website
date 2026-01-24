@@ -39,7 +39,7 @@ export default function ApplyPage() {
             <section className="py-12" style={{ background: 'linear-gradient(135deg, #8B1A2D, #6D1424)' }}>
                 <div className="section-container text-center">
                     <h1 className="text-white mb-2">Apply Now</h1>
-                    <p className="text-white/80">Start your journey with ASTI - No application fee!</p>
+                    <p className="text-white/80">Start your journey with ASTI</p>
                 </div>
             </section>
 
