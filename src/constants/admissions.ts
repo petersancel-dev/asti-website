@@ -178,8 +178,8 @@ export const FINANCIAL_AID = {
 
     contactMethods: {
         email: 'education@astitnt.com',
-        phone: '+1 868-485-1835',
-        whatsapp: '18684851835',
+        phone: '+1 868-727-8562',
+        whatsapp: '18687278562',
     },
 };
 
@@ -220,7 +220,7 @@ export const APPLICATION_PROCESS = {
     contactEmails: {
         registration: 'education@astitnt.com',
         academic: 'ancil@astitnt.com',
-        info: 'info@astitnt.com',
+        info: 'marketing@astitnt.com',
     },
 };
 

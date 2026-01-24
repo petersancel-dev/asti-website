@@ -27,7 +27,7 @@ export const NAV_ITEMS: NavItem[] = [
     ],
   },
   {
-    label: 'Online Learning',
+    label: 'Distance Learning',
     href: '/distance-learning',
   },
   {

@@ -13,11 +13,12 @@ export const CONTACT_INFO = {
         full: '#46 Boundary Road, San Juan, Trinidad and Tobago',
     },
     phones: [
-        { label: 'Main', number: '+1 868-485-1835' },
-        { label: 'Secondary', number: '+1 868-610-7500' },
+        { label: 'Main Office', number: '+1 868-610-7500' },
+        { label: 'Registration', number: '+1 868-727-8562' },
+        { label: 'Sales', number: '+1 868-778-2135' },
     ],
-    whatsapp: '+1 868-485-1835',
-    email: 'info@astitnt.com',
+    whatsapp: '+1 868-727-8562',
+    email: 'marketing@astitnt.com',
     registrationEmail: 'education@astitnt.com',
     socialMedia: {
         facebook: 'https://www.facebook.com/ASTIUniversity/',
@@ -39,7 +40,7 @@ export const STAFF_DIRECTORY = [
         title: 'Academic Director',
         department: 'Academic Administration',
         email: 'ancil@astitnt.com',
-        phone: '+1 868-485-1835',
+        phone: '+1 868-610-7500',
         responsibilities: 'Academic advice, Degree consultations',
     },
     {
