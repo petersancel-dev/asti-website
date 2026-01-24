@@ -1,0 +1,2 @@
+scripts/extract-real-courses.ts(10,7): error TS7034: Variable 'results' implicitly has type 'any[]' in some locations where its type cannot be determined.
+scripts/extract-real-courses.ts(48,46): error TS7005: Variable 'results' implicitly has an 'any[]' type.

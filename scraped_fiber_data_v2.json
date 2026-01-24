@@ -1,0 +1,50 @@
+[
+  {
+    "id": "BFI",
+    "title": "Broadband Fiber Installer (BFI)",
+    "description": "Click 'View Details' on official site for full info.",
+    "competencies": []
+  },
+  {
+    "id": "BFT",
+    "title": "Broadband Fiber Technician (BFT)",
+    "description": "Click 'View Details' on official site for full info.",
+    "competencies": []
+  },
+  {
+    "id": "DCI",
+    "title": "Data Cabling Installer (DCI)",
+    "description": "Click 'View Details' on official site for full info.",
+    "competencies": []
+  },
+  {
+    "id": "FOI",
+    "title": "Fiber Optics Installer (FOI)",
+    "description": "Click 'View Details' on official site for full info.",
+    "competencies": []
+  },
+  {
+    "id": "FOT",
+    "title": "Fiber Optics Technician (FOT)",
+    "description": "Click 'View Details' on official site for full info.",
+    "competencies": []
+  },
+  {
+    "id": "FOD",
+    "title": "Fiber Optics Designer (FOD)",
+    "description": "Click 'View Details' on official site for full info.",
+    "competencies": []
+  },
+  {
+    "id": "OTS",
+    "title": "OTDR Testing Specialist (OTS)",
+    "description": "Click 'View Details' on official site for full info.",
+    "competencies": []
+  },
+  {
+    "id": "FSS",
+    "title": "Fiber Splicing Specialist (FSS)",
+    "description": "Click 'View Details' on official site for full info.",
+    "competencies": []
+  }
+]

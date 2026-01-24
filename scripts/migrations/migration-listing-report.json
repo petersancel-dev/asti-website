@@ -1,0 +1,1103 @@
+{
+  "timestamp": "2026-01-24T19:12:14.806Z",
+  "sourceFile": "C:\\Users\\Jason\\Documents\\Joel\\asti-website\\src\\constants\\programmes.ts",
+  "changes": [
+    {
+      "id": "intro-air-conditioning",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "cert-air-conditioning",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-automatic-transmission",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-auto-mechanics",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-automotive-lubrication",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-small-engine-repair",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-braking-systems",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-automotive-engines",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-gasoline-diesel",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-wheel-alignment",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "intro-it-management",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-mcit-professional",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-it-consultant",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-oo-analysis-design",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-ethical-hacker",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-computer-literacy",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-computer-networking",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-computer-programming",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-cyber-security",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-computer-database",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-database-admin",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-data-info-quality",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-data-management",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-data-resource-mgmt",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-data-warehousing",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "cert-information-technology",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-cst",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-its",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-nst",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-wnt",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-dve",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-pvi1",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-pv2",
+      "level": "certificate",
+      "before": "60 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-pvss",
+      "level": "certificate",
+      "before": "20 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-swi",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-cast",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-esnt",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-sts",
+      "level": "certificate",
+      "before": "50 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-avfa",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-ceta",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-set",
+      "level": "introduction",
+      "before": "30 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "etai-avn",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "intro-computer-servicing",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-laptop-ipad-repairs",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "cert-computer-servicing",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-computer-service-tech",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "intro-hev-theory",
+      "level": "certificate",
+      "before": "12 Weeks",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-hev-servicing",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-ev-technician",
+      "level": "certificate",
+      "before": "12 Weeks",
+      "after": "15 weeks"
+    },
+    {
+      "id": "intro-electronics",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-electrical-theory",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-basic-electronics",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-appliance-repairs",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "cert-electrical-electronic-systems",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-appliance-repair-1",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-appliance-repair-2",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-car-audio-installation",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-audio-installation",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-electronic-technician",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-residential-electronics",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-video-systems",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-audio-video",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-gaming-vending",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "intro-fiber-optics",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "cert-fiber-installation",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-fiber-outside-plants",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-fiber-maintenance",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-fiber-network-design",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-wireless-installation",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-wireless-network-admin",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-wireless-tech-specialist",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-wireless-security",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-wireless-design",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-wireless-analysis",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-wireless-network-expert",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-wireless-trainer",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-wireless-technician",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-wireless-technologies",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-wireless-comm-tech",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-bfi",
+      "level": "certificate",
+      "before": "20 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-bft",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-dci",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-foi",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-fot",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-fod",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-ots",
+      "level": "certificate",
+      "before": "20 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-fss",
+      "level": "certificate",
+      "before": "20 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "intro-mobile-repair",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-iphone-technician",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "cert-mobile-phone-repair",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "intro-robotics",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "cert-robotics",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-drone-repair",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "intro-solar",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "cert-solar-tech",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-pv-installer",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "intro-cctv-ip",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-security-alarms",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-alarm-systems",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-fire-alarm-methods",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-fire-alarm-maintenance",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "cert-ip-camera",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-cctv-endorsement",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-surveillance-systems",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-alarms-security",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-burglar-alarm",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-life-safety-code",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-electronic-access",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-alarm-security-tech",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-security-networking",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-physical-security",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "intro-telecom-tech",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-cabling-networking",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-voip",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "cert-broadband-specialist",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-broadband-telecom-centre",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-comm-cabling-networks",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-convergence-network",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-convergence-professional",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-satellite-installer",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-network-computer-tech",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-data-cabling",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-digital-networking",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-gps-technologies",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-internetworking",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-microcomputing",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-network-maintenance",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-network-systems-tech",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-rfid-specialist",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-pbx-installation",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "cert-telecom-electronics",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "intro-admin-assistant",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-business-management",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-customer-service",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-hr-essentials",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-executive-assistant",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-front-desk",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-graphics-design",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-office-management",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "intro-project-management",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "cert-residential-electrical",
+      "level": "certificate",
+      "before": "30 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "diploma-cctv-design",
+      "level": "diploma",
+      "before": "2 Years",
+      "after": "9 months"
+    },
+    {
+      "id": "diploma-fiber-optics-network",
+      "level": "diploma",
+      "before": "2 Years",
+      "after": "9 months"
+    },
+    {
+      "id": "diploma-hev-diagnostic",
+      "level": "diploma",
+      "before": "2 Years",
+      "after": "9 months"
+    },
+    {
+      "id": "diploma-network-security",
+      "level": "diploma",
+      "before": "2 Years",
+      "after": "9 months"
+    },
+    {
+      "id": "diploma-telecom-electronics",
+      "level": "diploma",
+      "before": "2 Years",
+      "after": "9 months"
+    },
+    {
+      "id": "diploma-business-accounting",
+      "level": "diploma",
+      "before": "2 Years",
+      "after": "9 months"
+    },
+    {
+      "id": "diploma-business-marketing",
+      "level": "diploma",
+      "before": "2 Years",
+      "after": "9 months"
+    },
+    {
+      "id": "diploma-hr-management",
+      "level": "diploma",
+      "before": "2 Years",
+      "after": "9 months"
+    },
+    {
+      "id": "diploma-it-systems",
+      "level": "diploma",
+      "before": "2 Years",
+      "after": "9 months"
+    },
+    {
+      "id": "diploma-paralegal",
+      "level": "diploma",
+      "before": "2 Years",
+      "after": "9 months"
+    },
+    {
+      "id": "diploma-integrated-security",
+      "level": "diploma",
+      "before": "2 Years",
+      "after": "9 months"
+    },
+    {
+      "id": "diploma-cctv-integrated",
+      "level": "diploma",
+      "before": "2 Years",
+      "after": "9 months"
+    },
+    {
+      "id": "diploma-telecom-technologies",
+      "level": "diploma",
+      "before": "2 Years",
+      "after": "9 months"
+    },
+    {
+      "id": "diploma-fiber-optics-engineering",
+      "level": "diploma",
+      "before": "2 Years",
+      "after": "9 months"
+    },
+    {
+      "id": "intro-operating-theatres",
+      "level": "introduction",
+      "before": "20 Hours",
+      "after": "6 weeks"
+    },
+    {
+      "id": "diploma-strategic-leadership",
+      "level": "diploma",
+      "before": "1 Year",
+      "after": "9 months"
+    },
+    {
+      "id": "etai-5gt",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-csi",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-das",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-dasi",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-dast",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-gct1",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-gct2",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-las",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-mrt",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-mcei",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-pim",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-pab",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-rfim",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-rad",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-tcm",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-wcm",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-bmd",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-biet",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-pto",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-pts",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-spo",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-tpo",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-rfid",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-csm",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    },
+    {
+      "id": "etai-css",
+      "level": "certificate",
+      "before": "40 Hours",
+      "after": "15 weeks"
+    }
+  ],
+  "summary": {
+    "total": 182,
+    "updated": 182,
+    "unchanged": 0
+  }
+}

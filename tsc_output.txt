@@ -1,0 +1,1 @@
+src/app/about/page.tsx(158,75): error TS2339: Property 'description' does not exist on type '{ id: string; name: string; fullName: string; region: string; logo: string; url: string; bgColor: string; }'.

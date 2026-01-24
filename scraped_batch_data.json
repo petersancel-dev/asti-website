@@ -1,0 +1,30 @@
+[
+  {
+    "id": "etai-avfa",
+    "title": "Audio-Video Forensic Analyst (AVFA)",
+    "description": "An Audio Video Forensic Analyst’s task is to improve the perceived audio or visual clarity of a digital recording. An AVFA also comprehends the limitations of technology and the opinions that can be formed. However, AVFA work will also include measurements, cross referencing data, and handling everything in accordance with the highest ethics in preparation of your expert testimony in the service of justice. An AVFA will be expected to understand industry best practices, stay atop innovative peer-reviewed technologies and methods, maintain data integrity through the use of hash values and/or chain-of-custody control, keep detailed notes of activity, adapt existing knowledge to unexpected circumstances, and follow the procedures of the rules of evidence applicable to the jurisdiction of the case working solely for the evidence.",
+    "competencies": [],
+    "price": 105
+  },
+  {
+    "id": "etai-avn",
+    "title": "Avionics (AVN)",
+    "description": "The avionics specialty is designed to assess the knowledge and skills of individuals who install, maintain and adjust electronics equipment, cabling and the accessories used in aviation communications and control equipment. An FCC GROL is also highly recommended. Several of the topics covered in this examination include: avionics systems, cabling, computers and digital concepts, amplifiers, interfacing, antennas and transmission lines components, mathematics, network topologies and infrastructures, people relations, optical cabling, safety, test equipment and tools, and satellite communications. If you hold a Standalone AVN and later complete the Associate CET (CETa), then you are eligible to upgrade to a Journeyman CET! To apply for the Journeyman CET, you must have two or more years of combined training/experience. To upgrade, please contact the ETA office. Journeyman upgrades are $55.",
+    "competencies": [],
+    "price": 80
+  },
+  {
+    "id": "etai-dve",
+    "title": "Digital Video Editor (DVE)",
+    "description": "Digital video editing is experiencing an unprecedented boom with a worldwide increase of not only professional digital editing, but the melding of amateur and professional video into a product available through the Internet and many social media venues.ETA is proud to announce a new vendor-neutral exam and certification for Digital Video Editor (DVE), created for all media professionals working with digital videos. Many video editor positions may not require a degree or extensive training, however professional video editors will need the knowledge of industry standards and the skills necessary to meet the demands of this growing field. Examinees will be required to know both audio and video fundamentals, screen formats, digital video formats and fundamentals, digital data rates, and fundamental video editing processes. Customer service basics are also covered in regards to schedule requirements, progress reporting, production and transmission costs, and hardware and software requirements for video editing. Employment of film and video editors and camera operators is projected to grow 11 percent from 2014 to 2024, faster than the average for all occupations. Production companies and video freelancers are working with new content delivery methods, such as mobile devices or through online TV, which may lead to more work for editors and camera operators. 2016 Median pay was $59,040 per year. - Bureau of Labor Statistics",
+    "competencies": [],
+    "price": 105
+  },
+  {
+    "id": "etai-rfid",
+    "title": "Radio Frequency Identification Technical Specialist (RFID)",
+    "description": "This certification is intended for an electronics technician with an understanding of RFID. The technician should have a basic understanding of the hardware and theory of operation of radio communications as it applies to RFID radio transceiver technology. RFID is a stand-alone but can be used as a Journeyman option when the Associate exam is also taken and passed. If you hold a Standalone RFID and later complete the Associate CET (CETa), then you are eligible to upgrade to a Journeyman CET! To apply for the Journeyman CET, you must have two or more years of combined training/experience. To upgrade, please contact the ETA office. Journeyman upgrades are $55.",
+    "competencies": [],
+    "price": 105
+  }
+]

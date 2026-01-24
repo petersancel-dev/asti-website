@@ -1,0 +1,197 @@
+[
+  {
+    "deptId": "accounting-banking-finance",
+    "deptFile": "accounting_banking_finance.md",
+    "courses": [
+      "Keeping Clerk",
+      "Banking & Insurance"
+    ]
+  },
+  {
+    "deptId": "accounting-business-finance",
+    "deptFile": "accounting_business_finance.md",
+    "courses": []
+  },
+  {
+    "deptId": "air-conditioning-and-refrigeration-engineering",
+    "deptFile": "air_conditioning_and_refrigeration_engineering.md",
+    "courses": [
+      "HVACR -Heating Ventilation Air Conditioning Refrigeration Technician"
+    ]
+  },
+  {
+    "deptId": "architecture-management",
+    "deptFile": "architecture_management.md",
+    "courses": []
+  },
+  {
+    "deptId": "automobile-mechanical-engineering",
+    "deptFile": "automobile_mechanical_engineering.md",
+    "courses": [
+      "Heavy Duty Trucks Maintenance"
+    ]
+  },
+  {
+    "deptId": "business-management",
+    "deptFile": "business_management.md",
+    "courses": [
+      "Introduction to Certified Service Manager (CSM)",
+      "Advanced Diploma in Business Management"
+    ]
+  },
+  {
+    "deptId": "computer-science-engineering-information-technology",
+    "deptFile": "computer_science_engineering_information_technology.md",
+    "courses": [
+      "Certified Alarm Technician",
+      "Cyber Security"
+    ]
+  },
+  {
+    "deptId": "construction-management",
+    "deptFile": "construction_management.md",
+    "courses": []
+  },
+  {
+    "deptId": "electrical-and-electronics-engineering",
+    "deptFile": "electrical_and_electronics_engineering.md",
+    "courses": [
+      "Carpentry and Joinery Skills"
+    ]
+  },
+  {
+    "deptId": "electrical-and-electronic-department",
+    "deptFile": "electrical_and_electronic_department.md",
+    "courses": [
+      "Certified Networks Systems Technician",
+      "Introduction to Appliance Repairs"
+    ]
+  },
+  {
+    "deptId": "electrical-wiring",
+    "deptFile": "electrical_wiring.md",
+    "courses": []
+  },
+  {
+    "deptId": "electric-and-hybrid-engineering",
+    "deptFile": "electric_and_hybrid_engineering.md",
+    "courses": [
+      "Electric Vehicles"
+    ]
+  },
+  {
+    "deptId": "fibre-optics-and-wireless-technologies-engineering",
+    "deptFile": "fibre_optics_and_wireless_technologies_engineering.md",
+    "courses": [
+      "Introduction to Fiber Optics",
+      "Fiber Optic Network Design"
+    ]
+  },
+  {
+    "deptId": "global-strategy-leadership",
+    "deptFile": "global_strategy_leadership.md",
+    "courses": []
+  },
+  {
+    "deptId": "healthcare-biotechnology",
+    "deptFile": "healthcare_biotechnology.md",
+    "courses": []
+  },
+  {
+    "deptId": "hospitality-hotel-tourism-management",
+    "deptFile": "hospitality_hotel_tourism_management.md",
+    "courses": [
+      "Communication Skills & Ethics in Tourism",
+      "Air Fare and Ticketing"
+    ]
+  },
+  {
+    "deptId": "human-resource-management",
+    "deptFile": "human_resource_management.md",
+    "courses": [
+      "Advanced Diploma in Human Resource Management",
+      "Human Resource Management"
+    ]
+  },
+  {
+    "deptId": "information-systems-management",
+    "deptFile": "information_systems_management.md",
+    "courses": [
+      "Understanding Alarm Systems"
+    ]
+  },
+  {
+    "deptId": "insurance",
+    "deptFile": "insurance.md",
+    "courses": []
+  },
+  {
+    "deptId": "marketing",
+    "deptFile": "marketing.md",
+    "courses": []
+  },
+  {
+    "deptId": "media-and-journalism",
+    "deptFile": "media_and_journalism.md",
+    "courses": []
+  },
+  {
+    "deptId": "mobile-phone-repair-maintainance",
+    "deptFile": "mobile_phone_repair_maintainance.md",
+    "courses": [
+      "Mobile Phone Repair and Maintenance"
+    ]
+  },
+  {
+    "deptId": "project-management",
+    "deptFile": "project_management.md",
+    "courses": [
+      "Project Management Certification Test MCQ Questions answer practicing",
+      "Project Management Certification Test Board Questions"
+    ]
+  },
+  {
+    "deptId": "real-estate-management-brokerage-agent-principles-practices",
+    "deptFile": "real_estate_management_brokerage_agent_principles_practices.md",
+    "courses": [
+      "Property Management Accounting",
+      "Rental Property Investing"
+    ]
+  },
+  {
+    "deptId": "renewable-energy-department",
+    "deptFile": "renewable_energy_department.md",
+    "courses": [
+      "Hybrid Electric Vehicle Servicing",
+      "Hybrid Electric Vehicle HEV Diagnostic Technology"
+    ]
+  },
+  {
+    "deptId": "security-management",
+    "deptFile": "security_management.md",
+    "courses": [
+      "Advanced Burglar Alarm Technician",
+      "Alarms And Security Systems"
+    ]
+  },
+  {
+    "deptId": "shipping-logistics",
+    "deptFile": "shipping_logistics.md",
+    "courses": []
+  },
+  {
+    "deptId": "solar-energy-energy-technology",
+    "deptFile": "solar_energy_energy_technology.md",
+    "courses": [
+      "Solar Technology"
+    ]
+  },
+  {
+    "deptId": "telecommunications-network-electronics-engineering",
+    "deptFile": "telecommunications_network_electronics_engineering.md",
+    "courses": [
+      "PBX Installation and Designs",
+      "Introduction to Broadband Specialist"
+    ]
+  }
+]
