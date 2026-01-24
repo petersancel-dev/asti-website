@@ -1,5 +1,5 @@
-// Distance Learning Content - From ed2go.com/asti
-// Source: User-provided content from ed2go partner page
+// Distance Learning Content
+// Source: User-provided content
 // Last updated: January 2026
 
 export const DISTANCE_LEARNING_PAGE = {
@@ -12,7 +12,7 @@ export const DISTANCE_LEARNING_PAGE = {
         tagline: 'From short courses to full degrees — experience online study that works around you.',
         description: 'Match your career move with a choice of more than 200 online courses. Wherever you want to take your career – in Business, education, security, fiber optics, health, IT, law, science or any other industry – Advanced Solutions Technical Institute has got the right course for you.',
         ctaText: 'Browse Online Courses',
-        ctaUrl: 'https://www.ed2go.com/asti/',
+        ctaUrl: '/programmes',
     },
 
     whyChoose: {
@@ -45,14 +45,14 @@ export const DISTANCE_LEARNING_PAGE = {
         heading: 'Explore Course Categories',
         subheading: 'Choose from 200+ online courses across these fields:',
         items: [
-            { name: 'Business', icon: 'briefcase', color: 'from-blue-600 to-blue-400' },
-            { name: 'Technology & IT', icon: 'laptop', color: 'from-purple-600 to-purple-400' },
-            { name: 'Healthcare', icon: 'heart-pulse', color: 'from-rose-600 to-rose-400' },
-            { name: 'Education', icon: 'graduation-cap', color: 'from-green-600 to-green-400' },
-            { name: 'Security', icon: 'shield', color: 'from-orange-600 to-orange-400' },
-            { name: 'Fiber Optics', icon: 'cable', color: 'from-cyan-600 to-cyan-400' },
-            { name: 'Law & Legal', icon: 'scale', color: 'from-indigo-600 to-indigo-400' },
-            { name: 'Trades', icon: 'wrench', color: 'from-amber-600 to-amber-400' },
+            { name: 'Business', icon: 'briefcase', color: 'from-blue-600 to-blue-400', href: '/programmes#business-administration' },
+            { name: 'Technology & IT', icon: 'laptop', color: 'from-purple-600 to-purple-400', href: '/programmes#information-technology' },
+            { name: 'Healthcare', icon: 'heart-pulse', color: 'from-rose-600 to-rose-400', href: '/programmes#healthcare' },
+            { name: 'Education', icon: 'graduation-cap', color: 'from-green-600 to-green-400', href: '/programmes#education' },
+            { name: 'Security', icon: 'shield', color: 'from-orange-600 to-orange-400', href: '/programmes#security-systems' },
+            { name: 'Fiber Optics', icon: 'cable', color: 'from-cyan-600 to-cyan-400', href: '/programmes#fiber-optics' },
+            { name: 'Law & Legal', icon: 'scale', color: 'from-indigo-600 to-indigo-400', href: '/programmes#legal-studies' },
+            { name: 'Trades', icon: 'wrench', color: 'from-amber-600 to-amber-400', href: '/programmes#trades' },
         ],
     },
 
@@ -62,7 +62,7 @@ export const DISTANCE_LEARNING_PAGE = {
             {
                 number: 1,
                 title: 'Browse & Enroll',
-                description: 'Explore our catalog and choose from 200+ courses. Enroll online through ed2go.',
+                description: 'Explore our catalog and choose from 200+ courses. Enroll online.',
             },
             {
                 number: 2,
@@ -87,18 +87,11 @@ export const DISTANCE_LEARNING_PAGE = {
         description: 'If tomorrow is inevitable, that makes the present the BEST TIME TO CHANGE YOUR FUTURE!',
         primaryButton: {
             text: 'Browse All Courses',
-            url: 'https://www.ed2go.com/asti/',
+            url: '/programmes',
         },
         secondaryButton: {
             text: 'Contact Us',
             url: '/contact',
         },
-    },
-
-    partner: {
-        name: 'ed2go',
-        description: 'Our online courses are delivered in partnership with ed2go, a leading provider of online learning with over 2,500 courses and programs.',
-        logoUrl: '/images/partners/ed2go-logo.png',
-        websiteUrl: 'https://www.ed2go.com/asti/',
     },
 };

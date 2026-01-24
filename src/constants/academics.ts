@@ -65,7 +65,7 @@ export const ACADEMICS_CONTENT = {
             description: 'Flexible, self-paced learning through robust LMS platforms.',
             features: [
                 'Access course materials at your convenience',
-                'Integration with Electude, ESA, and Ed2Go platforms',
+                'Integration with Electude and ESA platforms',
                 'Multimedia learning with video lectures and simulations',
                 'Augmented and virtual reality experiences',
             ],

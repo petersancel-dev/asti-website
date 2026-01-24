@@ -31,7 +31,7 @@ export const DIGITAL_LIBRARY = {
     icon: '📚',
 };
 
-// Digital Learning Platforms from TVET Document - Electude, ESA, Ed2Go
+// Digital Learning Platforms from TVET Document - Electude, ESA
 export const DIGITAL_PLATFORMS = [
     {
         id: 'electude',
@@ -47,13 +47,7 @@ export const DIGITAL_PLATFORMS = [
         type: 'Security Training',
         url: 'https://www.esaweb.org',
     },
-    {
-        id: 'ed2go',
-        name: 'Ed2Go',
-        description: 'Online continuing education provider reaching learners in 50+ states and 16+ countries.',
-        type: 'Online Education',
-        url: 'https://www.ed2go.com',
-    },
+
 ];
 
 export const LMS_INFO = {
@@ -64,7 +58,7 @@ export const LMS_INFO = {
         'Discussion forums and collaboration',
         'Quizzes and assignment submissions',
         'Progress tracking and grades',
-        'Integration with Electude, ESA, and Ed2Go',
+        'Integration with Electude and ESA',
     ],
     benefits: [
         'Learn at your own pace',

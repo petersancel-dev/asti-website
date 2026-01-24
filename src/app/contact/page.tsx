@@ -148,7 +148,19 @@ export default function ContactPage() {
                             <div className="space-y-8">
                                 {[
                                     { icon: '📍', title: 'Address', content: CONTACT_INFO.address.full },
-                                    { icon: '📞', title: 'Phone', content: CONTACT_INFO.phones.map(p => p.number).join(' | ') },
+                                    {
+                                        icon: '📞',
+                                        title: 'Phone',
+                                        content: (
+                                            <div className="flex flex-col gap-1">
+                                                {CONTACT_INFO.phones.map(p => (
+                                                    <a key={p.label} href={`tel:${p.number.replace(/\s/g, '')}`} className="hover:text-gold transition-colors">
+                                                        <span className="font-semibold text-navy">{p.label}:</span> {p.number}
+                                                    </a>
+                                                ))}
+                                            </div>
+                                        )
+                                    },
                                     { icon: '✉️', title: 'Email', content: CONTACT_INFO.email },
                                     { icon: '🕐', title: 'Hours', content: `Mon-Fri: ${CONTACT_INFO.hours.weekdays}` }
                                 ].map((item, index) => (

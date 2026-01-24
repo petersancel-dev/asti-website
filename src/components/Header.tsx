@@ -56,6 +56,17 @@ const NavItem = ({ item }: { item: typeof NAV_ITEMS[0] }) => {
     const [isOpen, setIsOpen] = useState(false);
     const hasChildren = item.children && item.children.length > 0;
 
+    // Close on Escape key
+    useEffect(() => {
+        const handleEscape = (e: KeyboardEvent) => {
+            if (e.key === 'Escape') setIsOpen(false);
+        };
+        if (isOpen) {
+            document.addEventListener('keydown', handleEscape);
+        }
+        return () => document.removeEventListener('keydown', handleEscape);
+    }, [isOpen]);
+
     return (
         <div
             className="group relative"
@@ -65,9 +76,10 @@ const NavItem = ({ item }: { item: typeof NAV_ITEMS[0] }) => {
             <Link
                 href={item.href}
                 className="flex items-center space-x-1 text-white hover:text-gold py-3 px-2 text-sm font-bold font-oswald uppercase tracking-wider transition-colors"
+                onClick={() => setIsOpen(false)}
             >
                 <span>{item.label}</span>
-                {hasChildren && <ChevronDown size={14} className="group-hover:rotate-180 transition-transform" />}
+                {hasChildren && <ChevronDown size={14} className={`transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`} />}
             </Link>
 
             {/* Mega Menu Dropdown */}
@@ -76,36 +88,37 @@ const NavItem = ({ item }: { item: typeof NAV_ITEMS[0] }) => {
                     <motion.div
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, y: 10 }}
-                        className="fixed left-0 top-auto mt-0 w-full bg-white shadow-2xl border-t border-gray-100 z-40 py-12 px-8"
+                        exit={{ opacity: 0, y: 5, transition: { duration: 0.15 } }}
+                        className="fixed left-0 top-auto mt-0 w-full bg-white shadow-2xl border-t border-gray-100 z-40 py-6 px-6"
                     >
-                        <div className="max-w-7xl mx-auto grid grid-cols-4 gap-12">
+                        <div className="max-w-7xl mx-auto grid grid-cols-4 gap-8">
                             <div className="col-span-1">
-                                <h3 className="text-navy font-oswald text-xl font-bold uppercase mb-4">{item.label}</h3>
-                                <div className="w-12 h-1 bg-gold mb-6" />
+                                <h3 className="text-navy font-oswald text-xl font-bold uppercase mb-3">{item.label}</h3>
+                                <div className="w-12 h-1 bg-gold mb-4" />
                                 <p className="text-gray-500 text-sm leading-relaxed">
                                     Discover the opportunities that await you at ASTI.
                                 </p>
                             </div>
-                            <div className="col-span-3 grid grid-cols-3 gap-8">
+                            <div className="col-span-3 grid grid-cols-3 gap-6">
                                 {item.children?.map((child, idx) => (
                                     <Link
                                         key={idx}
                                         href={child.href}
                                         className="group/item cursor-pointer"
+                                        onClick={() => setIsOpen(false)}
                                     >
-                                        <div className="relative h-24 w-full mb-3 overflow-hidden bg-gray-100 rounded-sm">
+                                        <div className="relative h-16 w-full mb-2 overflow-hidden bg-gray-100 rounded-sm">
                                             {child.image && (
                                                 <Image
                                                     src={child.image}
                                                     alt={child.label}
                                                     fill
-                                                    className="object-cover group-hover/item:scale-105 transition-transform"
+                                                    className="object-cover group-hover/item:scale-105 transition-transform duration-500"
                                                 />
                                             )}
                                             <div className="absolute inset-0 bg-navy/10 group-hover/item:bg-transparent transition-colors" />
                                         </div>
-                                        <h4 className="font-bold text-navy uppercase text-sm mb-1 group-hover/item:text-gold tracking-wide transition-colors">
+                                        <h4 className="font-bold text-navy uppercase text-sm mb-0.5 group-hover/item:text-gold tracking-wide transition-colors">
                                             {child.label}
                                         </h4>
                                     </Link>
@@ -127,12 +140,18 @@ export default function Header() {
     const { scrollY } = useScroll();
 
     useMotionValueEvent(scrollY, "change", (latest) => {
-        setIsScrolled(latest > 120);
+        // Hysteresis: expand at 120px, collapse only after < 60px
+        // This prevents jitter when scroll position hovers near threshold
+        if (latest > 120 && !isScrolled) {
+            setIsScrolled(true);
+        } else if (latest < 60 && isScrolled) {
+            setIsScrolled(false);
+        }
     });
 
     return (
         <motion.header
-            className={`w-full z-[100] transition-shadow duration-300 ${isScrolled ? 'fixed top-0 left-0 right-0 shadow-xl' : 'relative'}`}
+            className={`w-full z-[100] sticky top-0 transition-shadow duration-200 ease-out ${isScrolled ? 'shadow-xl' : ''}`}
         >
             {/* Top Utility Row */}
             <motion.div
@@ -141,7 +160,7 @@ export default function Header() {
                     paddingTop: isScrolled ? '0.375rem' : '0.75rem',
                     paddingBottom: isScrolled ? '0.375rem' : '0.75rem'
                 }}
-                transition={{ duration: 0.25, ease: 'easeOut' }}
+                transition={{ duration: 0.2, ease: 'easeOut' }}
             >
                 <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
                     {/* Logo - Links to Home */}
@@ -240,7 +259,7 @@ export default function Header() {
             <div className="hidden lg:block bg-navy border-t border-white/10 shadow-lg">
                 <div className="max-w-7xl mx-auto px-4 flex justify-between items-center h-12 relative">
                     {/* Left Nav Items */}
-                    <nav className="flex items-center space-x-4">
+                    <nav className="flex items-center space-x-2">
                         {NAV_ITEMS.map((item) => (
                             <NavItem key={item.href} item={item} />
                         ))}
@@ -248,13 +267,6 @@ export default function Header() {
 
                     {/* Right Side - Visit, Alumni with spacer for ribbon */}
                     <div className="flex items-center space-x-8 mr-28 pr-4 border-r border-navy-light">
-                        <Link href="/contact" className="text-xs font-bold font-oswald uppercase text-white hover:text-gold transition-colors tracking-widest">
-                            Visit
-                        </Link>
-                        <Link href="/alumni" className="text-xs font-bold font-oswald uppercase text-white hover:text-gold transition-colors tracking-widest">
-                            Alumni
-                        </Link>
-
                         {/* Apply Button (visible when scrolled) */}
                         <ApplyButtonCompact isVisible={isScrolled} />
                     </div>

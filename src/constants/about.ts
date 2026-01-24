@@ -83,7 +83,7 @@ export const ABOUT_CONTENT = {
     digitalLearning: {
         title: 'Digital Adaptation',
         description: 'ASTI has implemented a system of using technology to promote effective digital and blended learning that enhances teaching, learning and assessment.',
-        platforms: ['Electude', 'ESA', 'Ed2Go'],
+        platforms: ['Electude', 'ESA'],
         features: [
             'Augmented and virtual reality learning',
             'Blockchain-based certification through Pedagog partnership',

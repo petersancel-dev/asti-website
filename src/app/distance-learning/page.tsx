@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import {
     Clock, Package, TrendingUp, BookOpen,
     Briefcase, Laptop, HeartPulse, GraduationCap,
@@ -35,36 +36,42 @@ export default function DistanceLearningPage() {
     return (
         <>
             {/* Hero Section */}
-            <section className="relative bg-gradient-to-br from-navy via-navy-dark to-slate-900 py-24 md:py-32 text-white overflow-hidden">
-                {/* Background pattern */}
-                <div className="absolute inset-0 opacity-10">
-                    <div className="absolute top-20 left-10 w-72 h-72 bg-gold rounded-full blur-3xl" />
-                    <div className="absolute bottom-20 right-10 w-96 h-96 bg-blue-500 rounded-full blur-3xl" />
+            <section className="relative py-32 md:py-40 text-white overflow-hidden">
+                {/* Background Image */}
+                <div className="absolute inset-0 z-0">
+                    <Image
+                        src="/images/distance-learning-hero.jpg"
+                        alt="Students learning online"
+                        fill
+                        priority
+                        className="object-cover"
+                        sizes="100vw"
+                    />
+                    {/* Gradient overlay - transparent at top, dark at bottom for text readability */}
+                    <div className="absolute inset-0 bg-gradient-to-b from-transparent via-navy/30 to-navy/80 z-10" />
                 </div>
 
                 <div className="section-container relative z-10">
                     <div className="max-w-4xl mx-auto text-center">
-                        <span className="inline-block px-4 py-2 bg-gold/20 text-gold rounded-full text-sm font-medium mb-6">
+                        <span className="inline-block px-4 py-2 bg-gold text-navy rounded-full text-sm font-semibold mb-6 shadow-lg">
                             200+ Online Courses Available
                         </span>
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-white drop-shadow-[0_4px_8px_rgba(0,0,0,0.6)]">
                             {content.hero.heading}
                         </h1>
-                        <p className="text-xl md:text-2xl text-gray-300 mb-4">
+                        <p className="text-xl md:text-2xl text-white mb-4 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)] font-semibold">
                             {content.hero.tagline}
                         </p>
-                        <p className="text-lg text-gray-400 mb-10 max-w-3xl mx-auto">
+                        <p className="text-lg text-gray-100 mb-10 max-w-3xl mx-auto drop-shadow-[0_2px_4px_rgba(0,0,0,0.4)]">
                             {content.hero.description}
                         </p>
-                        <a
+                        <Link
                             href={content.hero.ctaUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
                             className="inline-flex items-center gap-2 btn btn-gold text-lg px-8 py-4"
                         >
                             {content.hero.ctaText}
-                            <ExternalLink className="w-5 h-5" />
-                        </a>
+                            <ArrowRight className="w-5 h-5" />
+                        </Link>
                     </div>
                 </div>
             </section>
@@ -113,17 +120,15 @@ export default function DistanceLearningPage() {
                         {content.categories.items.map((category, index) => {
                             const Icon = iconMap[category.icon] || Briefcase;
                             return (
-                                <a
+                                <Link
                                     key={index}
-                                    href={content.partner.websiteUrl}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
+                                    href={category.href || '/programmes'}
                                     className={`group relative p-6 rounded-2xl bg-gradient-to-br ${category.color} text-white text-center hover:scale-105 transition-transform duration-300 shadow-lg hover:shadow-xl`}
                                 >
                                     <div className="absolute inset-0 bg-black/10 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity" />
                                     <Icon className="w-10 h-10 mx-auto mb-3 drop-shadow-lg" />
                                     <span className="font-semibold text-lg drop-shadow">{category.name}</span>
-                                </a>
+                                </Link>
                             );
                         })}
                     </div>
@@ -169,15 +174,13 @@ export default function DistanceLearningPage() {
                         {content.cta.description}
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <a
+                        <Link
                             href={content.cta.primaryButton.url}
-                            target="_blank"
-                            rel="noopener noreferrer"
                             className="inline-flex items-center justify-center gap-2 btn btn-gold text-lg px-8 py-4"
                         >
                             {content.cta.primaryButton.text}
-                            <ExternalLink className="w-5 h-5" />
-                        </a>
+                            <ArrowRight className="w-5 h-5" />
+                        </Link>
                         <Link
                             href={content.cta.secondaryButton.url}
                             className="inline-flex items-center justify-center gap-2 btn bg-white/10 hover:bg-white/20 text-white border border-white/30 text-lg px-8 py-4"
@@ -189,27 +192,7 @@ export default function DistanceLearningPage() {
                 </div>
             </section>
 
-            {/* Partner Info */}
-            <section className="section-padding bg-gray-50">
-                <div className="section-container">
-                    <div className="max-w-3xl mx-auto text-center">
-                        <p className="text-sm text-gray-500 mb-4">Powered by</p>
-                        <h3 className="text-2xl font-semibold text-navy mb-4">ed2go</h3>
-                        <p className="text-gray-600 mb-6">
-                            {content.partner.description}
-                        </p>
-                        <a
-                            href={content.partner.websiteUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-gold hover:text-gold-dark font-medium inline-flex items-center gap-1"
-                        >
-                            Visit our ed2go portal
-                            <ExternalLink className="w-4 h-4" />
-                        </a>
-                    </div>
-                </div>
-            </section>
+
         </>
     );
 }

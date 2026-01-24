@@ -231,13 +231,15 @@ export default function Footer() {
                                     <a
                                         key={phone.number}
                                         href={`tel:${phone.number.replace(/\s/g, '')}`}
-                                        className="flex items-center gap-4 text-lg text-navy hover:text-gold transition-colors group/phone"
+                                        className="flex items-start gap-4 text-lg text-navy hover:text-gold transition-colors group/phone"
                                     >
-                                        <Phone className="w-5 h-5 text-gold group-hover/phone:scale-110 transition-transform" />
-                                        <span>{phone.number}</span>
-                                        {phone.label && (
-                                            <span className="text-sm text-gray-400">({phone.label})</span>
-                                        )}
+                                        <Phone className="w-5 h-5 text-gold group-hover/phone:scale-110 transition-transform mt-1" />
+                                        <div className="flex flex-col">
+                                            {phone.label && (
+                                                <span className="text-sm font-bold text-gold uppercase tracking-wider">{phone.label}</span>
+                                            )}
+                                            <span className="font-medium">{phone.number}</span>
+                                        </div>
                                     </a>
                                 ))}
                                 <a
