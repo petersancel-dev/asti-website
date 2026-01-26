@@ -27,7 +27,7 @@ export default function ApplyRibbon({ isScrolled }: ApplyRibbonProps) {
             }}
             className="absolute top-0 right-4 lg:right-10 z-50"
         >
-            <Link href="/admissions" className="block group">
+            <Link href="/apply" className="block group">
                 <motion.div
                     className="relative"
                     whileHover={{ y: 3 }}

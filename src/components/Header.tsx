@@ -41,7 +41,7 @@ const ApplyButtonCompact = ({ isVisible }: { isVisible: boolean }) => (
                 exit={{ opacity: 0, x: 20, scale: 0.9, transition: { duration: 0.15 } }}
             >
                 <Link
-                    href="/admissions"
+                    href="/apply"
                     className="px-5 py-2 bg-maroon text-white font-oswald font-bold uppercase tracking-wider text-sm hover:bg-maroon-dark transition-all duration-300 shadow-md hover:shadow-lg"
                 >
                     Apply
