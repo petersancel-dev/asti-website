@@ -164,7 +164,7 @@ export const FINANCIAL_AID = {
             id: 'military',
             title: 'Military & Protective Services',
             description: 'Special considerations for members of the Trinidad and Tobago Defence Force, Police Service, and other protective services.',
-            icon: '/icons/military.png',
+            icon: '/icons/award.png',
             highlight: 'Special rates available',
         },
     ],
@@ -225,7 +225,19 @@ export const APPLICATION_PROCESS = {
 };
 
 export const APPLICATION_FORMS = [
-    { id: 'introductory', level: 'Introductory / Award', formUrl: '/forms/introductory-application.pdf' },
-    { id: 'certificate', level: 'Certificate', formUrl: '/forms/certificate-application.pdf' },
-    { id: 'diploma', level: 'Diploma', formUrl: '/forms/diploma-application.pdf' },
+    {
+        id: 'introductory',
+        level: 'Introductory / Award',
+        onlineUrl: '/registration/intro'
+    },
+    {
+        id: 'certificate',
+        level: 'Certificate',
+        onlineUrl: '/registration'
+    },
+    {
+        id: 'diploma',
+        level: 'Diploma',
+        onlineUrl: '/registration'
+    },
 ];

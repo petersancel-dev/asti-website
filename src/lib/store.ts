@@ -1,9 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit';
 import uiReducer from './features/ui/ui-slice';
+import registrationReducer from './features/registration/registrationSlice';
 
 export const store = configureStore({
     reducer: {
         ui: uiReducer,
+        registration: registrationReducer,
     },
 });
 

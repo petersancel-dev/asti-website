@@ -239,22 +239,16 @@ export default function AdmissionsPage() {
                                     <h4 className="font-oswald font-bold text-navy uppercase tracking-wide">
                                         {form.level}
                                     </h4>
-                                    <p className="text-sm text-gray-500">Download or submit online</p>
+                                    <p className="text-sm text-gray-500">Submit Application Online</p>
                                 </div>
                                 <div className="flex gap-3">
-                                    <motion.a
-                                        href={form.formUrl}
-                                        className="px-4 py-2 border-2 border-navy text-navy text-sm font-bold uppercase tracking-widest rounded-sm hover:bg-navy hover:text-white transition-colors"
-                                        whileHover={{ scale: 1.05 }}
-                                    >
-                                        📄 PDF
-                                    </motion.a>
-                                    <motion.button
-                                        className="px-4 py-2 bg-gold text-navy text-sm font-bold uppercase tracking-widest rounded-sm hover:bg-maroon hover:text-white transition-colors"
-                                        whileHover={{ scale: 1.05 }}
+
+                                    <Link
+                                        href={(form as any).onlineUrl || '/registration'}
+                                        className="px-4 py-2 bg-gold text-navy text-sm font-bold uppercase tracking-widest rounded-sm hover:bg-maroon hover:text-white transition-colors inline-block text-center"
                                     >
                                         ✏️ Online
-                                    </motion.button>
+                                    </Link>
                                 </div>
                             </motion.div>
                         ))}

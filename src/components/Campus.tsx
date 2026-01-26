@@ -110,16 +110,32 @@ export default function Campus() {
                                     </svg>
                                 </div>
                                 <div>
-                                    <p className="font-semibold text-navy">Contact</p>
+                                    <p className="font-semibold text-navy">Phone</p>
                                     {CONTACT_INFO.phones.map((phone) => (
-                                        <a
-                                            key={phone.number}
-                                            href={`tel:${phone.number.replace(/\s/g, '')}`}
-                                            className="block text-gray-600 hover:text-maroon transition-colors"
-                                        >
-                                            {phone.number}
-                                        </a>
+                                        <div key={phone.number} className="mb-1">
+                                            <span className="font-medium text-navy text-sm block">{phone.label}:</span>
+                                            <a
+                                                href={`tel:${phone.number.replace(/\s/g, '')}`}
+                                                className="block text-gray-600 hover:text-maroon transition-colors"
+                                            >
+                                                {phone.number}
+                                            </a>
+                                        </div>
                                     ))}
+                                </div>
+                            </div>
+
+                            <div className="flex items-start gap-4">
+                                <div className="w-10 h-10 rounded-sm bg-navy flex items-center justify-center flex-shrink-0">
+                                    <svg className="w-5 h-5 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p className="font-semibold text-navy">Email</p>
+                                    <a href={`mailto:${CONTACT_INFO.email}`} className="text-gray-600 hover:text-maroon transition-colors">
+                                        {CONTACT_INFO.email}
+                                    </a>
                                 </div>
                             </div>
 

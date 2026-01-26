@@ -175,7 +175,7 @@ export default function ContactPage() {
                                         <div className="text-3xl">{item.icon}</div>
                                         <div>
                                             <h4 className="font-oswald font-bold text-navy uppercase tracking-wide mb-1">{item.title}</h4>
-                                            <p className="text-gray-600">{item.content}</p>
+                                            <div className="text-gray-600">{item.content}</div>
                                         </div>
                                     </motion.div>
                                 ))}
