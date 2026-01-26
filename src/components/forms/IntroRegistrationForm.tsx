@@ -368,7 +368,9 @@ export default function IntroRegistrationForm() {
                             exit={{ opacity: 0, y: -10 }}
                             className="p-4 bg-red-50 border border-red-200 rounded-xl text-red-700 text-center"
                         >
-                            <span className="font-medium">Error:</span> {errorMessage}
+                            <p className="font-bold">Error submitting form:</p>
+                            <p>{errorMessage}</p>
+                            <p className="text-xs mt-2 text-red-500">Please check your internet connection or try again later.</p>
                         </motion.div>
                     )}
                 </AnimatePresence>
